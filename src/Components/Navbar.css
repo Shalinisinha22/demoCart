@@ -1,0 +1,38 @@
+.navbar-icons{
+  display:flex;
+  position:absolute;
+  right:15rem;
+  height:100%;
+  align-items: center;
+
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+ 
+  .navbar-icons{
+    display:flex;
+    position:absolute;
+    right:2rem;
+    height:100%;
+    align-items: center;
+   padding-left: 1rem;
+  
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 300px){
+ 
+ .navbar-icons{
+   right:0;
+
+ }
+ .navbar-icons>*{
+  font-size: 0.85rem;
+ }
+ 
+}
